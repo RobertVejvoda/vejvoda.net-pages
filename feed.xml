@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://www.vejvoda.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.vejvoda.net/" rel="alternate" type="text/html" /><updated>2026-06-30T19:41:56+02:00</updated><id>https://www.vejvoda.net/feed.xml</id><title type="html">Robert’s blog</title><subtitle>Enterprise architecture notes on systems that work at scale, practical principles, and lessons from real projects.</subtitle><author><name>Robert Vejvoda</name></author><entry><title type="html">FairSpot: fair workplace parking allocation</title><link href="https://www.vejvoda.net/dev/fps-architecture-wiki" rel="alternate" type="text/html" title="FairSpot: fair workplace parking allocation" /><published>2026-05-09T10:00:00+02:00</published><updated>2026-05-09T10:00:00+02:00</updated><id>https://www.vejvoda.net/dev/fps-architecture-wiki</id><content type="html" xml:base="https://www.vejvoda.net/dev/fps-architecture-wiki">&lt;p&gt;&lt;strong&gt;Updated June 2026.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://www.vejvoda.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.vejvoda.net/" rel="alternate" type="text/html" /><updated>2026-06-30T20:01:43+02:00</updated><id>https://www.vejvoda.net/feed.xml</id><title type="html">Robert’s blog</title><subtitle>Enterprise architecture notes on systems that work at scale, practical principles, and lessons from real projects.</subtitle><author><name>Robert Vejvoda</name></author><entry><title type="html">FairSpot: fair workplace parking allocation</title><link href="https://www.vejvoda.net/dev/fps-architecture-wiki" rel="alternate" type="text/html" title="FairSpot: fair workplace parking allocation" /><published>2026-05-09T10:00:00+02:00</published><updated>2026-05-09T10:00:00+02:00</updated><id>https://www.vejvoda.net/dev/fps-architecture-wiki</id><content type="html" xml:base="https://www.vejvoda.net/dev/fps-architecture-wiki">&lt;p&gt;&lt;strong&gt;Updated June 2026.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I have been working on a side project called &lt;strong&gt;FairSpot&lt;/strong&gt;.&lt;/p&gt;
 
@@ -18,19 +18,11 @@
   &lt;li&gt;local Docker-based deployment and a path toward hosted operation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The public product documentation is here:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vejvoda.net/fairspot/&quot;&gt;https://www.vejvoda.net/fairspot/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;The source code is open here:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/RobertVejvoda/fairspot&quot;&gt;https://github.com/RobertVejvoda/fairspot&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Architecture material is no longer maintained as a blog post. It changes as the product evolves, so I keep it in a dedicated repository and use GitHub issues and pull requests for delivery work.&lt;/p&gt;
-
-&lt;p&gt;The architecture repository is public, but treat it as a working architecture repository rather than a polished product page:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vejvoda.net/fairspot-architecture/&quot;&gt;https://www.vejvoda.net/fairspot-architecture/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Architecture material is no longer maintained as a blog post. It changes as the product evolves, so I keep it in a dedicated GitHub repository and use GitHub issues and pull requests for delivery work.&lt;/p&gt;
 
 &lt;p&gt;Repository links:&lt;/p&gt;
 
