@@ -15,25 +15,24 @@
 <meta charset="utf-8">
 
 
-<!-- begin _includes/seo.html --><title>Posts by Year - Robert’s blog</title>
-<meta name="description" content="Enterprise architecture notes on systems that work at scale, practical principles, and lessons from real projects.">
+<!-- begin _includes/seo.html --><title>FairSpot: fair workplace parking allocation - Robert’s blog</title>
+<meta name="description" content="Updated June 2026.">
 
 
   <meta name="author" content="Robert Vejvoda">
   
+  <meta property="article:author" content="Robert Vejvoda">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Robert&#39;s blog">
-<meta property="og:title" content="Posts by Year">
-<meta property="og:url" content="https://www.vejvoda.net/posts/">
+<meta property="og:title" content="FairSpot: fair workplace parking allocation">
+<meta property="og:url" content="https://www.vejvoda.net/dev/fps-architecture-wiki">
 
 
-  <meta property="og:description" content="Enterprise architecture notes on systems that work at scale, practical principles, and lessons from real projects.">
-
-
-
+  <meta property="og:description" content="Updated June 2026.">
 
 
 
@@ -43,9 +42,14 @@
 
 
 
+  <meta property="article:published_time" content="2026-05-09T10:00:00+02:00">
 
 
-<link rel="canonical" href="https://www.vejvoda.net/posts/">
+
+
+
+
+<link rel="canonical" href="https://www.vejvoda.net/dev/fps-architecture-wiki">
 
 
 
@@ -272,11 +276,50 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Posts by Year</h1>
+      <h1 id="page-title" class="page__title">FairSpot: fair workplace parking allocation</h1>
     
     
 
+<p><strong>Updated June 2026.</strong></p>
 
+<p>I have been working on a side project called <strong>FairSpot</strong>.</p>
+
+<p>FairSpot helps companies allocate limited workplace parking in a fair and explainable way. Employees request parking for a day, the company defines clear rules, and the system allocates available spaces in a way that can be explained afterwards.</p>
+
+<p>The main idea is simple: people should understand why they did or did not get a space, HR should not have to manage parking by email, and auditors should be able to trace important decisions when needed.</p>
+
+<p>The current focus is workplace parking. The same model can later be used for other limited workplace resources, such as desks or seats, but parking is the scenario I am building first.</p>
+
+<p>Technically, I use it to try a few ideas in practice:</p>
+
+<ul>
+  <li>.NET services with clear boundaries</li>
+  <li>Dapr for state, pub/sub, service calls, scheduling, and workflows</li>
+  <li>role-specific screens for employees, HR, tenant admins, and auditors</li>
+  <li>explainable allocation logic with audit evidence</li>
+  <li>local Docker-based deployment and a path toward hosted operation</li>
+</ul>
+
+<p>The public product documentation is here:</p>
+
+<p><strong><a href="https://www.vejvoda.net/fairspot/">https://www.vejvoda.net/fairspot/</a></strong></p>
+
+<p>The source code is open here:</p>
+
+<p><strong><a href="https://github.com/RobertVejvoda/fairspot">https://github.com/RobertVejvoda/fairspot</a></strong></p>
+
+<p>Architecture material is no longer maintained as a blog post. It changes as the product evolves, so I keep it in a dedicated repository and use GitHub issues and pull requests for delivery work.</p>
+
+<p>The architecture repository is public, but treat it as a working architecture repository rather than a polished product page:</p>
+
+<p><strong><a href="https://www.vejvoda.net/fairspot-architecture/">https://www.vejvoda.net/fairspot-architecture/</a></strong></p>
+
+<p>Repository links:</p>
+
+<ul>
+  <li><a href="https://github.com/RobertVejvoda/fairspot">RobertVejvoda/fairspot</a></li>
+  <li><a href="https://github.com/RobertVejvoda/fairspot-architecture">RobertVejvoda/fairspot-architecture</a></li>
+</ul>
 
 
 <ul class="taxonomy__index">
